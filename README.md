@@ -13,7 +13,7 @@ El portfolio incluye las siguientes secciones:
 - **Sobre Mí**: Una breve introducción sobre quién soy y mis intereses profesionales.
 - **Educación**: Información sobre mi formación académica.
 - **Experiencia Laboral**: Detalles sobre mis roles anteriores y las empresas en las que he trabajado.
-- **Proyectos**: Una lista de proyectos destacados en los que he participado, con enlaces a sus repositorios o demostraciones.
+- **Proyectos**: Una lista de proyectos destacados en los que he participado, con demostraciones.
 - **Contacto**: Información de contacto para aquellos interesados en colaborar o contratar mis servicios.
 
 ## Tecnologías Utilizadas

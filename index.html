@@ -340,20 +340,40 @@
             </div>
             <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
-                        <li>Tasa de éxito del 95% en misiones complejas.</li>
-                        <li>Memoria RAG persistente para contexto de proyecto.</li>
+                    <h3>🤖 Backend & IA (Python)</h3>
+                    <p style="color: var(--text-dim);">Ecosistema avanzado de agentes inspirado en Devin. Orquestación con CrewAI y soberanía de modelos vía LM Studio.</p>
+                    <div class="anatomy-pills">
+                        <span>CrewAI</span><span>FastAPI</span><span>Playwright</span><span>LM Studio</span><span>Qdrant</span><span>Socket.IO</span>
+                    </div>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem; margin-top: 1rem; font-size: 0.9rem;">
+                        <li><strong>Intelligence:</strong> NLP con Sentence-transformers y PyTorch.</li>
+                        <li><strong>Automation:</strong> Navegación web autónoma con Playwright + BS4.</li>
+                        <li><strong>Tools:</strong> Integración con yfinance y edge-tts (voz).</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>💻 Frontend & Infra (React 19)</h3>
+                    <p style="color: var(--text-dim);">Interfaz de control de alta frecuencia con streaming de logs en vivo y protocolo MCP.</p>
+                    <div class="anatomy-pills">
+                        <span>React 19</span><span>TypeScript</span><span>Vite</span><span>Tailwind</span><span>MCP Protocol</span>
+                    </div>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem; margin-top: 1rem; font-size: 0.9rem;">
+                        <li><strong>Real-time:</strong> Socket.io-client para updates instantáneos.</li>
+                        <li><strong>MCP:</strong> Conectores para PostgreSQL, Cloudinary y Supabase.</li>
+                        <li><strong>Deploy:</strong> Infraestructura orquestada en Render.</li>
                     </ul>
                 </div>
             </div>
             <div class="anatomy-box">
                 <div class="mermaid">
                     graph TD
-                    U[Usuario] --> C[Controller]
-                    C --> Q[Qdrant RAG]
-                    Q --> L[LLM Reasoning]
-                    L --> A[Agent Auditor]
-                    A --> G[Code Generation]
-                    G --> D[Deploy/Vercel]
+                    U[Usuario] --> C[CrewAI Orchestrator]
+                    C --> A[Agent Roles]
+                    A --> T[Tools: Playwright/BS4]
+                    A --> M[(Qdrant Memory)]
+                    A --> L[LM Studio / LLM]
+                    C --> S[Socket.IO Stream]
+                    S --> F[React 19 UI]
                 </div>
             </div>
         </div>
@@ -372,7 +392,7 @@
                     <p style="color: var(--text-dim);">Sistema de gestión integral donde una capa de agentes autónomos audita cada transacción para prevenir errores contables y quiebres de stock.</p>
                     <h3 style="margin-top: 1.5rem;">Stack</h3>
                     <div class="anatomy-pills">
-                        <span>PostgreSQL</span><span>Node.js</span><span>AI Agents</span>
+                        <span>PostgreSQL</span><span>SQLite</span><span>Node.js</span><span>AI Agents</span>
                     </div>
                 </div>
                 <div>
@@ -409,7 +429,7 @@
                     <p style="color: var(--text-dim);">Plataforma diseñada para soportar picos de tráfico masivo con monitoreo de latencia en tiempo real y una UI futurista optimizada para la conversión.</p>
                     <h3 style="margin-top: 1.5rem;">Stack</h3>
                     <div class="anatomy-pills">
-                        <span>React SPA</span><span>Gemini AI</span><span>Mercado Pago</span><span>Render Cloud</span>
+                        <span>React 19</span><span>Tailwind</span><span>Mercado Pago</span><span>Gemini AI</span>
                     </div>
                 </div>
                 <div>

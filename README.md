@@ -33,23 +33,23 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 ## 🔬 3. CASE STUDIES (ANATOMY)
 
 ### 🤖 [Devin Autonomous Agent](https://kais3r-0902.github.io/#proyectos)
-*   **Core:** Orquestación multi-agente con memoria RAG y modelos locales.
-*   **Stack:** LM Studio (Multi-LLM), Python, FastAPI, Qdrant.
-*   **Impacto:** Reducción del 40% en tiempos de despliegue con soberanía de datos.
+*   **Core:** Orquestación de agentes con CrewAI, navegación autónoma y memoria vectorial.
+*   **Stack:** Python, CrewAI, FastAPI, Playwright, LM Studio, Qdrant.
+*   **Frontend:** React 19, Vite, Socket.IO, Lucide React.
 
 ### 🛒 [E-Commerce 4.0](https://ecommerce-web-4-0-frontend.vercel.app/)
-*   **Core:** E-Commerce 4.0 con búsqueda semántica impulsada por Gemini AI.
-*   **Stack:** React SPA, Tailwind, Stripe, Render Cloud.
-*   **Impacto:** Conversión optimizada mediante lenguaje natural.
+*   **Core:** Plataforma escalable con IA Gemini y pagos integrados.
+*   **Stack:** React 19, Tailwind CSS, Mercado Pago, Gemini AI.
+*   **Impacto:** Conversión optimizada mediante búsqueda semántica.
 
 ### 🌴 [DiComo Turismo](https://dicomo-turismo.vercel.app/)
-*   **Core:** Experiencia inmersiva con arquitectura Vanilla JS ultra-liviana.
-*   **Stack:** Vanilla JS, Cloudinary CDN, YouTube API.
-*   **Impacto:** Lighthouse Score 98/100, carga ultra-rápida.
+*   **Core:** Arquitectura Vanilla JS ultra-liviana con optimización dinámica de assets.
+*   **Stack:** Vanilla JS, Cloudinary CDN, YouTube API, WhatsApp API.
+*   **Impacto:** Lighthouse Score 98/100, carga instantánea.
 
 ### 📋 [ROBOT-ERP](https://kais3r-0902.github.io/#proyectos)
-*   **Core:** Sistema de gestión auditado por agentes en tiempo real.
-*   **Stack:** PostgreSQL, Node.js, AI Agents.
+*   **Core:** Sistema de gestión auditado por agentes IA con persistencia dual.
+*   **Stack:** PostgreSQL, SQLite, Node.js, AI Agents.
 *   **Impacto:** Eliminación total de inconsistencias contables.
 
 ---

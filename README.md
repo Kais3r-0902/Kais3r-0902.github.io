@@ -39,12 +39,12 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 
 ### 🛒 [E-Commerce 4.0](https://ecommerce-web-4-0-frontend.vercel.app/)
 *   **Core:** E-Commerce 4.0 con búsqueda semántica impulsada por Gemini AI.
-*   **Stack:** Next.js 14, Tailwind, Stripe, Gemini Pro.
+*   **Stack:** React SPA, Tailwind, Stripe, Render Cloud.
 *   **Impacto:** Conversión optimizada mediante lenguaje natural.
 
 ### 🌴 [DiComo Turismo](https://dicomo-turismo.vercel.app/)
-*   **Core:** Experiencia inmersiva para catálogo de destinos premium.
-*   **Stack:** React, GSAP, Cloudinary API.
+*   **Core:** Experiencia inmersiva con arquitectura Vanilla JS ultra-liviana.
+*   **Stack:** Vanilla JS, Cloudinary CDN, YouTube API.
 *   **Impacto:** Lighthouse Score 98/100, carga ultra-rápida.
 
 ### 📋 [ROBOT-ERP](https://kais3r-0902.github.io/#proyectos)
@@ -55,8 +55,8 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 ---
 
 ## 🛠️ 4. STACK TÉCNICO (PREMIUM)
-*   **Languages:** TypeScript, Python, JavaScript, Rust/Mojo (Experimental).
-*   **Frameworks:** Next.js, FastAPI, React.
+*   **Languages:** TypeScript, Python, JavaScript.
+*   **Frameworks:** React (Vite/SPA), FastAPI, Node.js.
 *   **AI Infrastructure:** LM Studio (Local Multi-LLM Orchestration).
 *   **Databases:** PostgreSQL, Qdrant (Vectorial).
 *   **Security:** K3 Protocol (Internal Auditing).

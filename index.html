@@ -148,7 +148,7 @@
                     <div class="bento-content">
                         <div class="tag" style="width: fit-content; margin-bottom: 0.5rem;">TRAVEL TECH</div>
                         <h3>DiComo Turismo</h3>
-                        <p>UX inmersiva para catálogo de destinos premium.</p>
+                        <p>UX inmersiva con optimización de assets vía Cloudinary y conversión directa.</p>
                         <div style="display: flex; gap: 1rem; margin-top: 1rem;">
                             <a href="https://dicomo-turismo.vercel.app/" target="_blank" class="btn-demo" onclick="event.stopPropagation()">EXPLORAR</a>
                             <button class="btn-anatomy">ANATOMÍA</button>
@@ -157,20 +157,19 @@
                 </div>
 
                 <!-- Invitaciones Premium -->
-                <div class="bento-item wide" data-aos="fade-up" data-aos-delay="400">
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="500" onclick="openModal('modal-claudia')">
                     <img src="assets/cumple_claudia.png" class="bento-img">
                     <div class="bento-content">
-                        <div class="tag" style="width: fit-content; margin-bottom: 0.5rem;">UX/UI EVENTS</div>
-                        <h3>Invitaciones Premium</h3>
-                        <p>Experiencias digitales interactivas para eventos de alto perfil.</p>
-                        <div class="anatomy-pills">
-                            <span>GSAP</span><span>Mobile First</span><span>Audio API</span>
-                        </div>
+                        <div class="tag" style="width: fit-content; margin-bottom: 0.5rem;">EVENT TECH</div>
+                        <h3>Invitaciones Interactivas</h3>
+                        <p>Gestión de eventos con RSVP real-time y sincronización de calendario.</p>
                         <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-                            <a href="https://cumple-claudia.vercel.app/" target="_blank" class="btn-demo">VER DEMO</a>
+                            <a href="https://cumple-claudia.vercel.app/" target="_blank" class="btn-demo" onclick="event.stopPropagation()">VER DEMO</a>
+                            <button class="btn-anatomy">ANATOMÍA</button>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
 
         <!-- Pricing Tiers: Adaptado LATAM/ARS -->
@@ -313,20 +312,15 @@
         </div>
     </footer>
 
-    <!-- Modals (Audit, Devin, ERP) -->
+    <!-- Audit Modal -->
     <div id="modal-audit" class="modal">
         <div class="modal-content">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
-                <h2>Sistema Anti-Fallos</h2>
+                <h2>Anatomía: ROBOT-ERP (AI Auditor)</h2>
                 <span onclick="closeModal('modal-audit')" style="cursor: pointer; font-size: 2rem;">&times;</span>
             </div>
             <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
-                    <h3>Fixes Sistémicos</h3>
-                    <ul style="color: var(--text-dim); list-style: none;">
-                        <li><i class="fas fa-check-circle" style="color: var(--secondary)"></i> Type Safety Mandatory</li>
-                        <li><i class="fas fa-check-circle" style="color: var(--secondary)"></i> Debug Chaos Restricted</li>
-                        <li><i class="fas fa-check-circle" style="color: var(--secondary)"></i> Secret Exposure Blocking</li>
                     </ul>
                 </div>
                 <div>
@@ -341,22 +335,11 @@
     <div id="modal-devin" class="modal">
         <div class="modal-content">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
-                <h2>Anatomía: Devin Agent</h2>
+                <h2>Anatomía: Devin Autonomous Agent</h2>
                 <span onclick="closeModal('modal-devin')" style="cursor: pointer; font-size: 2rem;">&times;</span>
             </div>
             <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
-                    <h3>El Reto</h3>
-                    <p style="color: var(--text-dim);">Reducir la latencia en la toma de misiones y garantizar la robustez del código generado mediante auditoría en tiempo real.</p>
-                    <h3 style="margin-top: 1.5rem;">Stack Técnico</h3>
-                    <div class="anatomy-pills">
-                        <span>Python</span><span>FastAPI</span><span>Qdrant</span><span>GPT-4o</span><span>Docker</span>
-                    </div>
-                </div>
-                <div>
-                    <h3>Resultados</h3>
-                    <ul style="color: var(--text-dim); padding-left: 1.2rem;">
-                        <li>Reducción del 40% en tiempos de despliegue.</li>
                         <li>Tasa de éxito del 95% en misiones complejas.</li>
                         <li>Memoria RAG persistente para contexto de proyecto.</li>
                     </ul>
@@ -417,24 +400,24 @@
     <div id="modal-quantum" class="modal">
         <div class="modal-content">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
-                <h2>Anatomía: QuantumShop</h2>
+                <h2>Anatomía: E-Commerce 4.0 (New Game)</h2>
                 <span onclick="closeModal('modal-quantum')" style="cursor: pointer; font-size: 2rem;">&times;</span>
             </div>
             <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
-                    <h3>E-Commerce 4.0</h3>
-                    <p style="color: var(--text-dim);">Una tienda online que utiliza IA para recomendaciones personalizadas y búsqueda por lenguaje natural.</p>
+                    <h3>Alta Performance Gaming</h3>
+                    <p style="color: var(--text-dim);">Plataforma diseñada para soportar picos de tráfico masivo con monitoreo de latencia en tiempo real y una UI futurista optimizada para la conversión.</p>
                     <h3 style="margin-top: 1.5rem;">Stack</h3>
                     <div class="anatomy-pills">
-                        <span>Next.js 14</span><span>Gemini AI</span><span>Stripe</span><span>Supabase</span>
+                        <span>Next.js 14</span><span>Gemini AI</span><span>Stripe Enterprise</span><span>PostgreSQL</span>
                     </div>
                 </div>
                 <div>
-                    <h3>Features Core</h3>
+                    <h3>Features de Autoridad</h3>
                     <ul style="color: var(--text-dim); padding-left: 1.2rem;">
-                        <li>Checkout ultra-rápido con Stripe.</li>
-                        <li>Búsqueda semántica (Entiende qué quiere el cliente).</li>
-                        <li>Panel de vendedor con métricas en tiempo real.</li>
+                        <li><strong>AI Assistant:</strong> Búsqueda semántica que entiende la intención del usuario.</li>
+                        <li><strong>Latency Monitor:</strong> Dashboard integrado que garantiza < 400ms de respuesta.</li>
+                        <li><strong>Stock Real-time:</strong> Sincronización instantánea de inventario para ofertas flash.</li>
                     </ul>
                 </div>
             </div>
@@ -450,19 +433,47 @@
             </div>
             <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
-                    <h3>Experiencia Inmersiva</h3>
-                    <p style="color: var(--text-dim);">Landing page premium con enfoque en la velocidad de carga y animaciones de alta fidelidad.</p>
+                    <h3>Ingeniería de Conversión</h3>
+                    <p style="color: var(--text-dim);">Landing page premium donde el performance es el producto. Cada asset está optimizado para garantizar una carga instantánea en dispositivos móviles.</p>
                     <h3 style="margin-top: 1.5rem;">Stack</h3>
                     <div class="anatomy-pills">
-                        <span>React</span><span>GSAP</span><span>Cloudinary API</span>
+                        <span>React</span><span>Cloudinary CDN</span><span>GSAP</span><span>WhatsApp API</span>
                     </div>
                 </div>
                 <div>
-                    <h3>Optimización</h3>
+                    <h3>Optimización Core</h3>
                     <ul style="color: var(--text-dim); padding-left: 1.2rem;">
-                        <li>Lighthouse Score: 98/100.</li>
-                        <li>Imágenes optimizadas por CDN.</li>
-                        <li>Micro-interacciones fluidas.</li>
+                        <li><strong>Asset Pipeline:</strong> Compresión dinámica y formatos de nueva generación (WebP/AVIF).</li>
+                        <li><strong>Lighthouse:</strong> Score de 98+ en accesibilidad y performance.</li>
+                        <li><strong>Lead Gen:</strong> Funnel directo a WhatsApp con plantillas segmentadas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Claudia Modal -->
+    <div id="modal-claudia" class="modal">
+        <div class="modal-content">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h2>Anatomía: Invitación Interactiva Premium</h2>
+                <span onclick="closeModal('modal-claudia')" style="cursor: pointer; font-size: 2rem;">&times;</span>
+            </div>
+            <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div>
+                    <h3>Experiencia de Invitado</h3>
+                    <p style="color: var(--text-dim);">Más que una invitación, es un sistema de gestión de eventos que sincroniza calendarios y confirma asistencia en tiempo real.</p>
+                    <h3 style="margin-top: 1.5rem;">Stack</h3>
+                    <div class="anatomy-pills">
+                        <span>HTML5/JS</span><span>GSAP</span><span>Supabase RSVP</span><span>Google Calendar API</span>
+                    </div>
+                </div>
+                <div>
+                    <h3>Capacidades</h3>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem;">
+                        <li><strong>RSVP Sync:</strong> Confirmación instantánea con guardado en base de datos.</li>
+                        <li><strong>Calendar Integration:</strong> Agendado automático de eventos con un clic.</li>
+                        <li><strong>Geolocalización:</strong> Integración dinámica con Google Maps para navegación.</li>
                     </ul>
                 </div>
             </div>

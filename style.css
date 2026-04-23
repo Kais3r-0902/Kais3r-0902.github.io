@@ -589,6 +589,60 @@ section {
   color: var(--secondary);
 }
 
+.anatomy-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.anatomy-pills span {
+  font-size: 0.65rem;
+  font-family: var(--font-mono);
+  padding: 0.2rem 0.6rem;
+  background: rgba(124, 58, 237, 0.1);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  border-radius: 4px;
+  color: var(--primary);
+}
+
+.btn-demo {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-demo:hover {
+  background: var(--secondary);
+  box-shadow: 0 0 15px var(--secondary);
+  transform: translateY(-2px);
+}
+
+.btn-anatomy {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: var(--font-mono);
+}
+
+.btn-anatomy:hover {
+  border-color: var(--primary);
+  color: var(--text-main);
+}
+
 @media (max-width: 1024px) {
 
 

@@ -98,46 +98,79 @@
                 <h2>Casos de <span class="grad-text">Estudio</span></h2>
             </div>
             <div class="bento-grid">
+                <!-- Devin Agent -->
                 <div class="bento-item large" data-aos="fade-up" onclick="openModal('modal-devin')">
                     <img src="assets/devin.png" class="bento-img">
                     <div class="bento-content">
                         <div class="tag" style="width: fit-content; margin-bottom: 1rem;">AGENTIC AI</div>
                         <h3>Devin Autonomous Agent</h3>
                         <p>Orquestación multi-agente con memoria RAG en Qdrant.</p>
+                        <div class="anatomy-pills">
+                            <span>Python</span><span>FastAPI</span><span>Qdrant</span><span>GPT-4o</span>
+                        </div>
+                        <button class="btn-anatomy">VER ANATOMÍA</button>
                     </div>
                 </div>
-                <div class="bento-item wide" data-aos="fade-up" data-aos-delay="100">
+
+                <!-- QuantumShop Ecommerce -->
+                <div class="bento-item wide" data-aos="fade-up" data-aos-delay="100" onclick="openModal('modal-quantum')">
                     <img src="assets/ecommerce_real.png" class="bento-img">
                     <div class="bento-content">
-                        <h3>E-Commerce Enterprise</h3>
-                        <p>Plataforma escalable con IA Gemini y búsqueda vectorial.</p>
-                        <a href="https://ecommerce-web-4-0-frontend.vercel.app" target="_blank" class="tag" style="text-decoration: none; margin-top: 1rem; width: fit-content;">LIVE DEMO</a>
+                        <div class="tag" style="width: fit-content; margin-bottom: 1rem;">E-COMMERCE 4.0</div>
+                        <h3>QuantumShop Enterprise</h3>
+                        <p>Plataforma escalable con IA Gemini integrada y búsqueda vectorial.</p>
+                        <div class="anatomy-pills">
+                            <span>Next.js</span><span>Tailwind</span><span>Stripe</span><span>Gemini</span>
+                        </div>
+                        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                            <a href="https://quantumshop-zeta.vercel.app/" target="_blank" class="btn-demo" onclick="event.stopPropagation()">LIVE DEMO</a>
+                            <button class="btn-anatomy">ANATOMÍA</button>
+                        </div>
                     </div>
                 </div>
+
+                <!-- ROBOT-ERP -->
                 <div class="bento-item" data-aos="fade-up" data-aos-delay="200" onclick="openModal('modal-erp')">
                     <div class="bento-content">
                         <i class="fas fa-robot" style="font-size: 2rem; margin-bottom: 1rem; color: var(--primary);"></i>
                         <h3>ROBOT-ERP</h3>
-                        <p>Gestión con auditoría de IA en tiempo real.</p>
+                        <p>Sistema de gestión interna con auditoría de agentes IA.</p>
+                        <div class="anatomy-pills">
+                            <span>PostgreSQL</span><span>Redis</span><span>Agents</span>
+                        </div>
+                        <button class="btn-anatomy" style="margin-top: 1rem;">ANATOMÍA</button>
                     </div>
                 </div>
-                <div class="bento-item" data-aos="fade-up" data-aos-delay="300">
+
+                <!-- DiComo Turismo -->
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="300" onclick="openModal('modal-dicomo')">
                     <img src="https://res.cloudinary.com/dnz3hsdso/image/upload/v1776638781/dicomo_turismo/varadero_cuba.jpg" class="bento-img">
                     <div class="bento-content">
+                        <div class="tag" style="width: fit-content; margin-bottom: 0.5rem;">TRAVEL TECH</div>
                         <h3>DiComo Turismo</h3>
-                        <p>Experiencia premium interactiva.</p>
+                        <p>UX inmersiva para catálogo de destinos premium.</p>
+                        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                            <a href="https://dicomo-travel.vercel.app/" target="_blank" class="btn-demo" onclick="event.stopPropagation()">EXPLORAR</a>
+                            <button class="btn-anatomy">ANATOMÍA</button>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Invitaciones Premium -->
                 <div class="bento-item wide" data-aos="fade-up" data-aos-delay="400">
                     <img src="assets/cumple_claudia.png" class="bento-img">
                     <div class="bento-content">
-                        <div class="tag" style="width: fit-content; margin-bottom: 0.5rem;">EVENTOS</div>
+                        <div class="tag" style="width: fit-content; margin-bottom: 0.5rem;">UX/UI EVENTS</div>
                         <h3>Invitaciones Premium</h3>
-                        <p>UX inmersiva para eventos exclusivos (Bodas, XV, Cumpleaños). (Repo Privado)</p>
-                        <a href="https://cumple-claudia.vercel.app/" target="_blank" style="color: var(--text-main); font-size: 0.8rem; margin-top: 1rem;"><i class="fas fa-link"></i> Demo</a>
+                        <p>Experiencias digitales interactivas para eventos de alto perfil.</p>
+                        <div class="anatomy-pills">
+                            <span>GSAP</span><span>Mobile First</span><span>Audio API</span>
+                        </div>
+                        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                            <a href="https://cumple-claudia.vercel.app/" target="_blank" class="btn-demo">VER DEMO</a>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <!-- Pricing Tiers: Adaptado LATAM/ARS -->
@@ -311,16 +344,21 @@
                 <h2>Anatomía: Devin Agent</h2>
                 <span onclick="closeModal('modal-devin')" style="cursor: pointer; font-size: 2rem;">&times;</span>
             </div>
-            <div class="case-study-grid">
+            <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
                 <div>
                     <h3>El Reto</h3>
-                    <p style="color: var(--text-dim);">Reducir la latencia en la toma de misiones y garantizar la robustez del código generado.</p>
+                    <p style="color: var(--text-dim);">Reducir la latencia en la toma de misiones y garantizar la robustez del código generado mediante auditoría en tiempo real.</p>
+                    <h3 style="margin-top: 1.5rem;">Stack Técnico</h3>
+                    <div class="anatomy-pills">
+                        <span>Python</span><span>FastAPI</span><span>Qdrant</span><span>GPT-4o</span><span>Docker</span>
+                    </div>
                 </div>
                 <div>
                     <h3>Resultados</h3>
                     <ul style="color: var(--text-dim); padding-left: 1.2rem;">
                         <li>Reducción del 40% en tiempos de despliegue.</li>
-                        <li>Tasa de éxito del 95% en misiones.</li>
+                        <li>Tasa de éxito del 95% en misiones complejas.</li>
+                        <li>Memoria RAG persistente para contexto de proyecto.</li>
                     </ul>
                 </div>
             </div>
@@ -328,11 +366,104 @@
                 <div class="mermaid">
                     graph TD
                     U[Usuario] --> C[Controller]
-                    C --> Q[Qdrant]
-                    Q --> L[LLM]
-                    L --> A[Auditor]
-                    A --> G[Code]
-                    G --> D[Deploy]
+                    C --> Q[Qdrant RAG]
+                    Q --> L[LLM Reasoning]
+                    L --> A[Agent Auditor]
+                    A --> G[Code Generation]
+                    G --> D[Deploy/Vercel]
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ERP Modal -->
+    <div id="modal-erp" class="modal">
+        <div class="modal-content">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h2>Anatomía: ROBOT-ERP</h2>
+                <span onclick="closeModal('modal-erp')" style="cursor: pointer; font-size: 2rem;">&times;</span>
+            </div>
+            <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div>
+                    <h3>El Sistema</h3>
+                    <p style="color: var(--text-dim);">Un ERP diseñado para la automatización total de procesos contables y de stock, gobernado por un Auditor de IA.</p>
+                    <h3 style="margin-top: 1.5rem;">Arquitectura</h3>
+                    <div class="anatomy-pills">
+                        <span>PostgreSQL</span><span>Node.js</span><span>Redis</span><span>React</span>
+                    </div>
+                </div>
+                <div>
+                    <h3>Impacto Operativo</h3>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem;">
+                        <li>Auditoría automática de facturación.</li>
+                        <li>Predicción de stock con redes neuronales.</li>
+                        <li>Reducción de errores humanos al 0.01%.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="anatomy-box">
+                <div class="mermaid">
+                    graph LR
+                    S[Ventas] --> DB[(Postgres)]
+                    DB --> A[AI Auditor]
+                    A --> R[Reporte Realtime]
+                    A --> B[Alertas Stock]
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QuantumShop Modal -->
+    <div id="modal-quantum" class="modal">
+        <div class="modal-content">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h2>Anatomía: QuantumShop</h2>
+                <span onclick="closeModal('modal-quantum')" style="cursor: pointer; font-size: 2rem;">&times;</span>
+            </div>
+            <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div>
+                    <h3>E-Commerce 4.0</h3>
+                    <p style="color: var(--text-dim);">Una tienda online que utiliza IA para recomendaciones personalizadas y búsqueda por lenguaje natural.</p>
+                    <h3 style="margin-top: 1.5rem;">Stack</h3>
+                    <div class="anatomy-pills">
+                        <span>Next.js 14</span><span>Gemini AI</span><span>Stripe</span><span>Supabase</span>
+                    </div>
+                </div>
+                <div>
+                    <h3>Features Core</h3>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem;">
+                        <li>Checkout ultra-rápido con Stripe.</li>
+                        <li>Búsqueda semántica (Entiende qué quiere el cliente).</li>
+                        <li>Panel de vendedor con métricas en tiempo real.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DiComo Modal -->
+    <div id="modal-dicomo" class="modal">
+        <div class="modal-content">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h2>Anatomía: DiComo Turismo</h2>
+                <span onclick="closeModal('modal-dicomo')" style="cursor: pointer; font-size: 2rem;">&times;</span>
+            </div>
+            <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div>
+                    <h3>Experiencia Inmersiva</h3>
+                    <p style="color: var(--text-dim);">Landing page premium con enfoque en la velocidad de carga y animaciones de alta fidelidad.</p>
+                    <h3 style="margin-top: 1.5rem;">Stack</h3>
+                    <div class="anatomy-pills">
+                        <span>React</span><span>GSAP</span><span>Cloudinary API</span>
+                    </div>
+                </div>
+                <div>
+                    <h3>Optimización</h3>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem;">
+                        <li>Lighthouse Score: 98/100.</li>
+                        <li>Imágenes optimizadas por CDN.</li>
+                        <li>Micro-interacciones fluidas.</li>
+                    </ul>
                 </div>
             </div>
         </div>

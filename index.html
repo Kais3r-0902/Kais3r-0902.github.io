@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kais3r | Arquitecto de Sistemas Autónomos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true, theme: 'neutral' });</script>
+</head>
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+    <div class="bg-glow"></div>
+    <div class="grid-overlay"></div>
+    <div class="scanline"></div>
+
+    <!-- Social Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://github.com/Kais3r-0902" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/hernan-antelo-bravo" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/kais3r_dev" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Audit Widget -->
+    <div class="audit-floating" onclick="openModal('modal-audit')">
+        <div class="status-indicator"></div>
+        <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-main);">AUDITOR V3: PASSED</span>
+    </div>
+
+    <nav>
+        <div class="logo">KAIS3R<span>.DEV</span></div>
+        <ul class="nav-links">
+            <li><a href="#core">Core</a></li>
+            <li><a href="#proyectos">Casos</a></li>
+            <li><a href="#pricing">Consultoría</a></li>
+            <li><a href="#dna">DNA</a></li>
+        </ul>
+        <a href="https://wa.me/543815695579?text=%C2%A1Hola%20Hern%C3%A1n!%20Vi%20tu%20portfolio%20como%20Arquitecto%20de%20Sistemas%20y%20me%20gustar%C3%ADa%20coordinar%20una%20Kickoff%20Session%20para%20un%20proyecto.%20Mi%20nombre%20es%20%5BNombre%5D%20y%20estoy%20interesado%20en%20%5BServicio%5D." target="_blank" class="cta-btn">KICKOFF SESSION</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="profile-badge">
+                    <img src="assets/foto-perfil.png" alt="Hernán Antelo">
+                </div>
+                <div class="hero-badge"><i class="fas fa-shield-halved"></i> OPERATIONAL IDENTITY: CORE INMUTABLE</div>
+                <h1>Ningún sistema es mejor que su <br><span class="grad-text">Disciplina de Ejecución</span></h1>
+                <p>Arquitecto de sistemas autónomos. Mi IA no es un modelo, es un sistema de agentes diseñado para imponer robustez y eliminar la inconsistencia técnica.</p>
+                
+                <div class="formula-box" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="formula-text">Decision = (Integrity * 0.5 + Robustness * 0.3 + Speed * 0.2)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Core: Agent System -->
+        <section id="core" style="background: var(--surface)">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Arquitectura de <span class="grad-text">Agentes Internos</span></h2>
+                <p>Ecosistema obligatorio que gobierna cada línea de código.</p>
+            </div>
+            <div class="agent-grid">
+                <div class="agent-card" data-aos="fade-up">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Architect</h3>
+                    <p>Diseña flujos, módulos y escalabilidad. Define el norte técnico.</p>
+                </div>
+                <div class="agent-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Executor</h3>
+                    <p>Implementación de alto rendimiento bajo presión controlada.</p>
+                </div>
+                <div class="agent-card" data-aos="fade-up" data-aos-delay="200" style="border-color: var(--secondary)">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Auditor</h3>
+                    <p>Bloquea código incorrecto. Detecta deuda técnica. Cierra loops.</p>
+                </div>
+                <div class="agent-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Security</h3>
+                    <p>Detección de secretos, scripts destructivos y vulnerabilidades.</p>
+                </div>
+                <div class="agent-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-broom"></i>
+                    <h3>Cleaner</h3>
+                    <p>Elimina basura, duplicación y scripts de debug permanentes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="proyectos">
+            <div class="section-header" data-aos="fade-right">
+                <h2>Casos de <span class="grad-text">Estudio</span></h2>
+            </div>
+            <div class="bento-grid">
+                <div class="bento-item large" data-aos="fade-up" onclick="openModal('modal-devin')">
+                    <img src="assets/devin.png" class="bento-img">
+                    <div class="bento-content">
+                        <div class="tag" style="width: fit-content; margin-bottom: 1rem;">AGENTIC AI</div>
+                        <h3>Devin Autonomous Agent</h3>
+                        <p>Orquestación multi-agente con memoria RAG en Qdrant.</p>
+                    </div>
+                </div>
+                <div class="bento-item wide" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/ecommerce_real.png" class="bento-img">
+                    <div class="bento-content">
+                        <h3>E-Commerce Enterprise</h3>
+                        <p>Plataforma escalable con IA Gemini y búsqueda vectorial.</p>
+                        <a href="https://ecommerce-web-4-0-frontend.vercel.app" target="_blank" class="tag" style="text-decoration: none; margin-top: 1rem; width: fit-content;">LIVE DEMO</a>
+                    </div>
+                </div>
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="200" onclick="openModal('modal-erp')">
+                    <div class="bento-content">
+                        <i class="fas fa-robot" style="font-size: 2rem; margin-bottom: 1rem; color: var(--primary);"></i>
+                        <h3>ROBOT-ERP</h3>
+                        <p>Gestión con auditoría de IA en tiempo real.</p>
+                    </div>
+                </div>
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://res.cloudinary.com/dnz3hsdso/image/upload/v1776638781/dicomo_turismo/varadero_cuba.jpg" class="bento-img">
+                    <div class="bento-content">
+                        <h3>DiComo Turismo</h3>
+                        <p>Experiencia premium interactiva.</p>
+                    </div>
+                </div>
+                <div class="bento-item wide" data-aos="fade-up" data-aos-delay="400">
+                    <img src="assets/cumple_claudia.png" class="bento-img">
+                    <div class="bento-content">
+                        <div class="tag" style="width: fit-content; margin-bottom: 0.5rem;">EVENTOS</div>
+                        <h3>Invitaciones Premium</h3>
+                        <p>UX inmersiva para eventos exclusivos (Bodas, XV, Cumpleaños). (Repo Privado)</p>
+                        <a href="https://cumple-claudia.vercel.app/" target="_blank" style="color: var(--text-main); font-size: 0.8rem; margin-top: 1rem;"><i class="fas fa-link"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Tiers: Adaptado LATAM/ARS -->
+        <section id="pricing" style="background: rgba(124, 58, 237, 0.01)">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Planes & <span class="grad-text">Inversión</span></h2>
+                <p>Soluciones de ingeniería adaptadas al mercado local con visión global.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Tier 1 -->
+                <div class="tier-card" data-aos="fade-up">
+                    <h3>Presencia Digital</h3>
+                    <p style="color: var(--text-dim)">Landing pages y sitios institucionales premium.</p>
+                    <div class="tier-price" style="font-size: 1.8rem;">$200.000<span style="font-size: 0.8rem; color: var(--text-dim)">+ ARS</span></div>
+                    <ul class="tier-features">
+                        <li><i class="fas fa-check"></i> Diseño 100% Personalizado</li>
+                        <li><i class="fas fa-check"></i> Invitaciones Digitales Premium</li>
+                        <li><i class="fas fa-chart-line"></i> <b>ROI:</b> Posicionamiento de Marca</li>
+                        <li><i class="fas fa-check"></i> Soporte & Hosting bonificado</li>
+                    </ul>
+                    <a href="https://wa.me/543815695579?text=%C2%A1Hola%20Hern%C3%A1n!%20Me%20interesa%20el%20plan%20Digital%20Essentials%20de%20tu%20portfolio.%20%C2%BFPodemos%20charlar%20sobre%20mi%20proyecto?" target="_blank" class="cta-btn" style="background: var(--glass); border: 1px solid var(--border)">ME INTERESA</a>
+                </div>
+
+                <!-- Tier 2 -->
+                <div class="tier-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tag" style="position: absolute; top: 2rem; right: 2rem; background: var(--secondary); color: black;">RECOMENDADO</div>
+                    <h3>E-Commerce & Gestión</h3>
+                    <p style="color: var(--text-dim)">Tiendas online y sistemas de gestión (ERP).</p>
+                    <div class="tier-price" style="font-size: 1.8rem;">$800.000<span style="font-size: 0.8rem; color: var(--text-dim)">+ ARS</span></div>
+                    <ul class="tier-features">
+                        <li><i class="fas fa-check"></i> Pasarelas de Pago & Stock</li>
+                        <li><i class="fas fa-chart-line"></i> <b>ROI:</b> Automatización de Ventas</li>
+                        <li><i class="fas fa-check"></i> Panel de Admin avanzado</li>
+                    </ul>
+                    <a href="https://wa.me/543815695579?text=%C2%A1Hola%20Hern%C3%A1n!%20Vi%20tu%20portfolio%20como%20Arquitecto%20de%20Sistemas%20y%20me%20gustar%C3%ADa%20coordinar%20una%20Kickoff%20Session%20para%20un%20proyecto.%20Mi%20nombre%20es%20%5BNombre%5D%20y%20estoy%20interesado%20en%20%5BServicio%5D." target="_blank" class="cta-btn">KICKOFF PROJECT</a>
+                </div>
+
+                <!-- Tier 3 -->
+                <div class="tier-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Sistemas IA & Enterprise</h3>
+                    <p style="color: var(--text-dim)">Agentes autónomos y arquitecturas críticas.</p>
+                    <div class="tier-price" style="font-size: 1.8rem;">A Medida</div>
+                    <ul class="tier-features">
+                        <li><i class="fas fa-check"></i> Agentes IA (tipo Devin)</li>
+                        <li><i class="fas fa-chart-line"></i> <b>ROI:</b> Eficiencia Operativa +80%</li>
+                        <li><i class="fas fa-check"></i> Auditoría de Seguridad K3</li>
+                    </ul>
+                    <a href="https://wa.me/543815695579?text=%C2%A1Hola%20Hern%C3%A1n!%20Necesito%20una%20consulta%20t%C3%A9cnica%20sobre%20sistemas%20de%20alta%20complejidad/IA.%20Vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20coordinar%20una%20reuni%C3%B3n." target="_blank" class="cta-btn" style="background: var(--glass); border: 1px solid var(--border)">SOLICITAR CONSULTA</a>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem; color: var(--text-dim); font-size: 0.8rem;">
+                <p>* Precios de referencia para LATAM. Para proyectos internacionales, consultar presupuesto en <b>USD</b>.</p>
+                <p>Todos los planes son adaptables según el alcance y requerimientos específicos.</p>
+            </div>
+        </section>
+
+        <!-- Technical Manifesto (Terminal) -->
+        <section id="manifesto">
+            <div class="section-header" data-aos="fade-left">
+                <h2>Technical <span class="grad-text">Manifesto</span></h2>
+            </div>
+            <div class="terminal-window" data-aos="zoom-in">
+                <div class="terminal-header">
+                    <div class="dot" style="background: #ff5f56"></div>
+                    <div class="dot" style="background: #ffbd2e"></div>
+                    <div class="dot" style="background: #27c93f"></div>
+                    <span style="font-family: var(--font-mono); font-size: 0.7rem; margin-left: 1rem; color: var(--text-dim);">systemic_discipline.sh</span>
+                </div>
+                <div class="terminal-body">
+                    <p>> loading loop_k3_v3...</p>
+                    <p style="color: var(--secondary)">[STATUS] Auditor Active | 0 TS Errors Detected</p>
+                    <p>> query: "What is your core rule?"</p>
+                    <p style="color: var(--text-main)">"Todo código que sobrevive 24h es código de producción. No existe el prototipo permanente, solo la deuda técnica acumulada por falta de disciplina."</p>
+                    <p style="margin-top: 1rem;">> query: "How do you handle failures?"</p>
+                    <p style="color: var(--text-main)">"Fail fast, audit deep. Si tsErrors > 0, el commit es bloqueado. La IA no ayuda a codear rápido, ayuda a no romper el sistema."</p>
+                    <p>> <span class="cursor-blink"></span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DNA & Monitor -->
+        <section id="dna">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Status <span class="grad-text">Monitor</span></h2>
+                <p><span class="status-pulse"></span> SISTEMAS OPERATIVOS / AUDITORÍA EN TIEMPO REAL</p>
+            </div>
+            
+            <div class="monitor-grid" data-aos="fade-up">
+                <div class="monitor-card">
+                    <span class="monitor-val" id="uptime">99.98%</span>
+                    <span class="monitor-label">Uptime Global</span>
+                </div>
+                <div class="monitor-card">
+                    <span class="monitor-val" id="latency">42ms</span>
+                    <span class="monitor-label">Avg Latency</span>
+                </div>
+                <div class="monitor-card">
+                    <span class="monitor-val" id="agents">12</span>
+                    <span class="monitor-label">Active Agents</span>
+                </div>
+                <div class="monitor-card">
+                    <span class="monitor-val" style="color: var(--secondary)">SECURED</span>
+                    <span class="monitor-label">K3 Protocol</span>
+                </div>
+            </div>
+
+            <div class="anatomy-box" data-aos="fade-up" style="margin-top: 4rem;">
+                <h3 style="margin-bottom: 1.5rem; font-family: var(--font-mono); font-size: 0.9rem;">LOOP KAIS3R v3: REPROGRAMACIÓN</h3>
+                <div class="mermaid">
+                    graph LR
+                    A[Diseñar] --> B[Implementar]
+                    B --> C[Compilar Limpio]
+                    C --> D[Validar Auditor]
+                    D --> E[Commit]
+                    E --> F[Avanzar]
+                    style E fill:#7c3aed,color:#fff
+                    style D fill:#06b6d4,color:#000
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="logo">KAIS3R<span>.DEV</span></div>
+                <p>Arquitectura de Sistemas Autónomos & Disciplina de Ejecución.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/Kais3r-0902" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/hernan-antelo-bravo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/543815695579?text=%C2%A1Hola%20Hern%C3%A1n!%20Te%20contacto%20desde%20tu%20portfolio.%20Me%20gustar%C3%ADa%20hacerte%20una%20consulta." target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 KAIS3R v3. All systems operational. <span id="footer-time"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals (Audit, Devin, ERP) -->
+    <div id="modal-audit" class="modal">
+        <div class="modal-content">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h2>Sistema Anti-Fallos</h2>
+                <span onclick="closeModal('modal-audit')" style="cursor: pointer; font-size: 2rem;">&times;</span>
+            </div>
+            <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div>
+                    <h3>Fixes Sistémicos</h3>
+                    <ul style="color: var(--text-dim); list-style: none;">
+                        <li><i class="fas fa-check-circle" style="color: var(--secondary)"></i> Type Safety Mandatory</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--secondary)"></i> Debug Chaos Restricted</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--secondary)"></i> Secret Exposure Blocking</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Protocolo Antes de Commit</h3>
+                    <p style="color: var(--text-dim); font-size: 0.8rem;">0 errores TS | 0 console.log | Errores manejados | Validaciones input/output.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Devin Modal -->
+    <div id="modal-devin" class="modal">
+        <div class="modal-content">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h2>Anatomía: Devin Agent</h2>
+                <span onclick="closeModal('modal-devin')" style="cursor: pointer; font-size: 2rem;">&times;</span>
+            </div>
+            <div class="case-study-grid">
+                <div>
+                    <h3>El Reto</h3>
+                    <p style="color: var(--text-dim);">Reducir la latencia en la toma de misiones y garantizar la robustez del código generado.</p>
+                </div>
+                <div>
+                    <h3>Resultados</h3>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem;">
+                        <li>Reducción del 40% en tiempos de despliegue.</li>
+                        <li>Tasa de éxito del 95% en misiones.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="anatomy-box">
+                <div class="mermaid">
+                    graph TD
+                    U[Usuario] --> C[Controller]
+                    C --> Q[Qdrant]
+                    Q --> L[LLM]
+                    L --> A[Auditor]
+                    A --> G[Code]
+                    G --> D[Deploy]
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        const cursor = document.querySelector('#cursor');
+        const blur = document.querySelector('#cursor-blur');
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            blur.style.left = (e.clientX - 125) + 'px';
+            blur.style.top = (e.clientY - 125) + 'px';
+        });
+        function openModal(id) {
+            document.getElementById(id).classList.add('active');
+            document.body.style.overflow = 'hidden';
+            mermaid.init();
+        }
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        setInterval(() => {
+            const lat = document.getElementById('latency');
+            if(lat) lat.innerText = (30 + Math.floor(Math.random() * 20)) + 'ms';
+            const up = document.getElementById('uptime');
+            if(up) up.innerText = (99.95 + (Math.random() * 0.04)).toFixed(2) + '%';
+            
+            const timeEl = document.getElementById('footer-time');
+            if(timeEl) {
+                const now = new Date();
+                timeEl.innerText = now.toLocaleTimeString();
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

@@ -5,17 +5,17 @@ Este repositorio es la interfaz pública de un sistema de ingeniería diseñado 
 
 ---
 
-## 🧠 0. IDENTIDAD OPERATIVA (CORE INMUTABLE)
-*   **Rol:** Arquitecto de Sistemas Autónomos.
-*   **Filosofía:** Diseñar para la escalabilidad, ejecutar con rigor militar.
-*   **Enemigo:** La inconsistencia.
-*   **Solución:** Automatización del criterio técnico mediante agentes.
+## 🧩 0. IDENTIDAD (INGENIERÍA DE SISTEMAS)
+*   **Rol:** Arquitecto de Sistemas & Diseñador de Soluciones.
+*   **Filosofía:** La IA es una herramienta de ejecución; la arquitectura es una disciplina humana.
+*   **Enemigo:** La automatización sin criterio técnico.
+*   **Solución:** Orquestación de sistemas de alta frecuencia bajo reglas estrictas.
 
 ---
 
-## ⚔️ 1. LEY FUNDAMENTAL
-> **"NINGÚN SISTEMA ES MEJOR QUE SU DISCIPLINA DE EJECUCIÓN"**
-La IA existe para imponer esta disciplina, no para reemplazarla.
+## ⚔️ 1. LEY DE ORQUESTACIÓN
+> **"LA IA ES EL MOTOR; EL ARQUITECTO ES EL MAPA"**
+La IA existe para ejecutar procesos definidos por una arquitectura humana superior.
 
 ---
 

@@ -37,10 +37,15 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 *   **Stack:** Python, FastAPI, Qdrant, GPT-4o.
 *   **Impacto:** Reducción del 40% en tiempos de despliegue.
 
-### 🛒 [QuantumShop Enterprise](https://quantumshop-zeta.vercel.app/)
+### 🛒 [E-Commerce 4.0](https://ecommerce-web-4-0-frontend.vercel.app/)
 *   **Core:** E-Commerce 4.0 con búsqueda semántica impulsada por Gemini AI.
 *   **Stack:** Next.js 14, Tailwind, Stripe, Gemini Pro.
 *   **Impacto:** Conversión optimizada mediante lenguaje natural.
+
+### 🌴 [DiComo Turismo](https://dicomo-turismo.vercel.app/)
+*   **Core:** Experiencia inmersiva para catálogo de destinos premium.
+*   **Stack:** React, GSAP, Cloudinary API.
+*   **Impacto:** Lighthouse Score 98/100, carga ultra-rápida.
 
 ### 📋 [ROBOT-ERP](https://kais3r-0902.github.io/#proyectos)
 *   **Core:** Sistema de gestión auditado por agentes en tiempo real.

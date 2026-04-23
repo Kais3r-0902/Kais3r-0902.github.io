@@ -33,9 +33,9 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 ## 🔬 3. CASE STUDIES (ANATOMY)
 
 ### 🤖 [Devin Autonomous Agent](https://kais3r-0902.github.io/#proyectos)
-*   **Core:** Orquestación multi-agente con memoria RAG.
-*   **Stack:** Python, FastAPI, Qdrant, GPT-4o.
-*   **Impacto:** Reducción del 40% en tiempos de despliegue.
+*   **Core:** Orquestación multi-agente con memoria RAG y modelos locales.
+*   **Stack:** LM Studio (Multi-LLM), Python, FastAPI, Qdrant.
+*   **Impacto:** Reducción del 40% en tiempos de despliegue con soberanía de datos.
 
 ### 🛒 [E-Commerce 4.0](https://ecommerce-web-4-0-frontend.vercel.app/)
 *   **Core:** E-Commerce 4.0 con búsqueda semántica impulsada por Gemini AI.
@@ -49,7 +49,7 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 
 ### 📋 [ROBOT-ERP](https://kais3r-0902.github.io/#proyectos)
 *   **Core:** Sistema de gestión auditado por agentes en tiempo real.
-*   **Stack:** PostgreSQL, Redis, Node.js, AI Agents.
+*   **Stack:** PostgreSQL, Node.js, AI Agents.
 *   **Impacto:** Eliminación total de inconsistencias contables.
 
 ---
@@ -57,7 +57,8 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 ## 🛠️ 4. STACK TÉCNICO (PREMIUM)
 *   **Languages:** TypeScript, Python, JavaScript, Rust/Mojo (Experimental).
 *   **Frameworks:** Next.js, FastAPI, React.
-*   **Databases:** PostgreSQL, Qdrant (Vectorial), Redis.
+*   **AI Infrastructure:** LM Studio (Local Multi-LLM Orchestration).
+*   **Databases:** PostgreSQL, Qdrant (Vectorial).
 *   **Security:** K3 Protocol (Internal Auditing).
 
 ---

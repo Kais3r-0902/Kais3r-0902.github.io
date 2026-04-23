@@ -347,11 +347,11 @@
             </div>
             <div class="anatomy-box">
                 <div class="mermaid">
-                    graph LR
-                    V["Ventas"] --> DB[("Postgres")]
-                    DB --> A["AI Auditor Agent"]
-                    A --> R["Reportes"]
-                    A --> W["WhatsApp Alerts"]
+graph LR
+    V["Ventas"] --> DB["PostgreSQL"]
+    DB --> A["AI Auditor Agent"]
+    A --> R["Reportes"]
+    A --> W["WhatsApp Alerts"]
                 </div>
             </div>
         </div>
@@ -392,14 +392,14 @@
             </div>
             <div class="anatomy-box">
                 <div class="mermaid">
-                    graph TD
-                    U["Usuario"] --> C["CrewAI Orchestrator"]
-                    C --> A["Agent Roles"]
-                    A --> T["Tools: Playwright/BS4"]
-                    A --> M[("Qdrant Memory")]
-                    A --> L["LM Studio / LLM"]
-                    C --> S["Socket.IO Stream"]
-                    S --> F["React 19 UI"]
+graph TD
+    U["Usuario"] --> C["CrewAI Orchestrator"]
+    C --> A["Agent Roles"]
+    A --> T["Tools: Playwright/BS4"]
+    A --> M["Qdrant Memory"]
+    A --> L["LM Studio / LLM"]
+    C --> S["Socket.IO Stream"]
+    S --> F["React 19 UI"]
                 </div>
             </div>
         </div>
@@ -432,11 +432,11 @@
             </div>
             <div class="anatomy-box">
                 <div class="mermaid">
-                    graph LR
-                    S["Ventas"] --> DB[("Postgres")]
-                    DB --> A["AI Auditor"]
-                    A --> R["Reporte Realtime"]
-                    A --> B["Alertas Stock"]
+graph LR
+    S["Ventas"] --> DB["PostgreSQL"]
+    DB --> A["AI Auditor Agent"]
+    A --> R["Reportes"]
+    A --> W["WhatsApp Alerts"]
                 </div>
             </div>
         </div>
@@ -541,11 +541,10 @@
             const modal = document.getElementById(id);
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
-            // Forzar re-render de mermaid en el modal específico
-            const diagrams = modal.querySelectorAll('.mermaid');
-            diagrams.forEach(d => {
-                d.removeAttribute('data-processed');
-                mermaid.init(undefined, d);
+            
+            // Método moderno para Mermaid v11
+            mermaid.run({
+                nodes: modal.querySelectorAll('.mermaid')
             });
         }
         function closeModal(id) {

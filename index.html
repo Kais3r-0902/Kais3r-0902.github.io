@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({ startOnLoad: true, theme: 'neutral' });</script>
+    <script>mermaid.initialize({ 
+        startOnLoad: true, 
+        theme: 'dark',
+        themeVariables: {
+            darkMode: true,
+            background: 'transparent',
+            primaryColor: '#00f2fe',
+            lineColor: '#71717a'
+        }
+    });</script>
 </head>
 <body>
     <div id="cursor"></div>
@@ -512,9 +521,15 @@
             blur.style.top = (e.clientY - 125) + 'px';
         });
         function openModal(id) {
-            document.getElementById(id).classList.add('active');
+            const modal = document.getElementById(id);
+            modal.classList.add('active');
             document.body.style.overflow = 'hidden';
-            mermaid.init();
+            // Forzar re-render de mermaid en el modal específico
+            const diagrams = modal.querySelectorAll('.mermaid');
+            diagrams.forEach(d => {
+                d.removeAttribute('data-processed');
+                mermaid.init(undefined, d);
+            });
         }
         function closeModal(id) {
             document.getElementById(id).classList.remove('active');

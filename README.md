@@ -1,40 +1,68 @@
-# Portfolio de Hernán Antelo Bravo
+# KAIS3R v3: Command Center 🧠⚡
+> **Arquitectura de Sistemas Autónomos & Disciplina de Ejecución.**
 
-Este repositorio contiene el código fuente de mi portfolio personal, donde muestro mis habilidades, proyectos y experiencia profesional.
+Este repositorio es la interfaz pública de un sistema de ingeniería diseñado para imponer orden sobre el caos técnico. Aquí no se "hacen webs"; se diseñan arquitecturas resilientes gobernadas por la **Ley Fundamental de Ejecución**.
 
-## Descripción
+---
 
-Mi portfolio es una vitrina de mis habilidades como programador junior, con énfasis en desarrollo web, especializado en JavaScript. Incluye una variedad de proyectos en los que he trabajado, así como detalles sobre mi educación y experiencia laboral.
+## 🧠 0. IDENTIDAD OPERATIVA (CORE INMUTABLE)
+*   **Rol:** Arquitecto de Sistemas Autónomos.
+*   **Filosofía:** Diseñar para la escalabilidad, ejecutar con rigor militar.
+*   **Enemigo:** La inconsistencia.
+*   **Solución:** Automatización del criterio técnico mediante agentes.
 
-## Contenido
+---
 
-El portfolio incluye las siguientes secciones:
+## ⚔️ 1. LEY FUNDAMENTAL
+> **"NINGÚN SISTEMA ES MEJOR QUE SU DISCIPLINA DE EJECUCIÓN"**
+La IA existe para imponer esta disciplina, no para reemplazarla.
 
-- **Sobre Mí**: Una breve introducción sobre quién soy y mis intereses profesionales.
-- **Educación**: Información sobre mi formación académica.
-- **Experiencia Laboral**: Detalles sobre mis roles anteriores y las empresas en las que he trabajado.
-- **Proyectos**: Una lista de proyectos destacados en los que he participado, con demostraciones.
-- **Contacto**: Información de contacto para aquellos interesados en colaborar o contratar mis servicios.
+---
 
-## Tecnologías Utilizadas
+## 🧩 2. ARQUITECTURA "AI HERNÁN" (Agent System)
+El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantizan la integridad del sistema:
 
-- HTML
-- CSS
-- JavaScript
-- Next.js
-- Linux
-- Terminal
+1.  **ARCHITECT (The Mind):** Define módulos, flujos y escalabilidad. No se escribe una línea sin un plano.
+2.  **EXECUTOR (The Muscle):** Implementación rápida y resolución bajo presión. Optimizado para el *performance*.
+3.  **AUDITOR (The Gatekeeper):** Bloquea el código mediocre. Cero errores de TypeScript permitidos.
+4.  **SECURITY (The Shield):** Detección proactiva de vulnerabilidades y exposición de secretos.
+5.  **CLEANER (The Purger):** Eliminación sistemática de deuda técnica y código redundante.
 
-## Cómo Visualizar el Portfolio
+---
 
-Puedes acceder a mi portfolio en línea a través de [GitHub Pages](https://Kais3r-0902.github.io).
+## 🔬 3. CASE STUDIES (ANATOMY)
 
-## Contacto
+### 🤖 [Devin Autonomous Agent](https://kais3r-0902.github.io/#proyectos)
+*   **Core:** Orquestación multi-agente con memoria RAG.
+*   **Stack:** Python, FastAPI, Qdrant, GPT-4o.
+*   **Impacto:** Reducción del 40% en tiempos de despliegue.
 
-Si estás interesado en colaborar en proyectos o contratar mis servicios, puedes contactarme a través de:
+### 🛒 [QuantumShop Enterprise](https://quantumshop-zeta.vercel.app/)
+*   **Core:** E-Commerce 4.0 con búsqueda semántica impulsada por Gemini AI.
+*   **Stack:** Next.js 14, Tailwind, Stripe, Gemini Pro.
+*   **Impacto:** Conversión optimizada mediante lenguaje natural.
 
-- Email: hernan.0902.hab@gmail.com
-- Teléfono: +549 381 5695579 / +52 9842781305
+### 📋 [ROBOT-ERP](https://kais3r-0902.github.io/#proyectos)
+*   **Core:** Sistema de gestión auditado por agentes en tiempo real.
+*   **Stack:** PostgreSQL, Redis, Node.js, AI Agents.
+*   **Impacto:** Eliminación total de inconsistencias contables.
 
-¡Gracias por visitar mi portfolio!
+---
 
+## 🛠️ 4. STACK TÉCNICO (PREMIUM)
+*   **Languages:** TypeScript, Python, JavaScript, Rust/Mojo (Experimental).
+*   **Frameworks:** Next.js, FastAPI, React.
+*   **Databases:** PostgreSQL, Qdrant (Vectorial), Redis.
+*   **Security:** K3 Protocol (Internal Auditing).
+
+---
+
+## 📞 5. CONTACTO DIRECTO (KICKOFF SESSION)
+Si buscás un prototipo, hay otros freelancers. Si buscás un **sistema**, coordinemos:
+
+*   **WhatsApp:** [+54 381 569-5579](https://wa.me/543815695579?text=%C2%A1Hola%20Hern%C3%A1n!%20Vi%20tu%20portfolio%20como%20Arquitecto%20de%20Sistemas%20y%20me%20gustar%C3%ADa%20coordinar%20una%20Kickoff%20Session.)
+*   **LinkedIn:** [Hernán Antelo Bravo](https://linkedin.com/in/hernan-antelo-bravo)
+*   **Portfolio:** [Kais3r.dev](https://kais3r-0902.github.io)
+
+---
+*AUDITOR STATUS: PASSED | v3.0.0-PROD*

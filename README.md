@@ -33,33 +33,33 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 ## 🔬 3. CASE STUDIES (ANATOMY)
 
 ### 🤖 [Devin Autonomous Agent](https://kais3r-0902.github.io/#proyectos)
-*   **Core:** Orquestación de agentes con CrewAI, navegación autónoma y memoria vectorial.
-*   **Stack:** Python, CrewAI, FastAPI, Playwright, LM Studio, Qdrant.
-*   **Frontend:** React 19, Vite, Socket.IO, Lucide React.
+*   **Core:** Multi-agent orchestration with CrewAI, autonomous web navigation, and persistent RAG memory.
+*   **Stack:** Python, CrewAI, FastAPI, Playwright, LM Studio, Qdrant (Vectorial DB).
+*   **Frontend:** React 19, Socket.IO (Live Logs), MCP Protocol integration.
 
-### 🛒 [E-Commerce 4.0](https://ecommerce-web-4-0-frontend.vercel.app/)
-*   **Core:** Plataforma escalable con IA Gemini y pagos integrados.
-*   **Stack:** React 19, Tailwind CSS, Mercado Pago, Gemini AI.
-*   **Impacto:** Conversión optimizada mediante búsqueda semántica.
+### 🛒 [E-Commerce 4.0 (QuantumShop)](https://ecommerce-web-4-0-frontend.vercel.app/)
+*   **Core:** Enterprise-grade platform with Gemini AI assistant and algorithmic hardware compatibility (PC Builder).
+*   **Stack:** NestJS, TypeScript 5, PostgreSQL (TypeORM), React 18, Docker, Google Gemini IA.
+*   **Impact:** Real-time stock synchronization and semantic search powered by LLMs.
 
 ### 🌴 [DiComo Turismo](https://dicomo-turismo.vercel.app/)
-*   **Core:** Arquitectura Vanilla JS ultra-liviana con optimización dinámica de assets.
+*   **Core:** High-performance Vanilla JS architecture with dynamic asset optimization and CDN integration.
 *   **Stack:** Vanilla JS, Cloudinary CDN, YouTube API, WhatsApp API.
-*   **Impacto:** Lighthouse Score 98/100, carga instantánea.
+*   **Impact:** Lighthouse Score 98/100, sub-second load times.
 
 ### 📋 [ROBOT-ERP](https://kais3r-0902.github.io/#proyectos)
-*   **Core:** Sistema de gestión auditado por agentes IA con persistencia dual.
-*   **Stack:** PostgreSQL, SQLite, Node.js, AI Agents.
-*   **Impacto:** Eliminación total de inconsistencias contables.
+*   **Core:** Industrial desktop management system with automated auditing and external workflow orchestration.
+*   **Stack:** Electron v37 (Vite), React 18, n8n (Docker), SQLite, PostgreSQL, Playwright, Firebase.
+*   **Impact:** SafeIpc secure bridge architecture and n8n-driven business automation.
 
 ---
 
 ## 🛠️ 4. STACK TÉCNICO (PREMIUM)
-*   **Languages:** TypeScript, Python, JavaScript.
-*   **Frameworks:** React (Vite/SPA), FastAPI, Node.js.
-*   **AI Infrastructure:** LM Studio (Local Multi-LLM Orchestration).
-*   **Databases:** PostgreSQL, Qdrant (Vectorial).
-*   **Security:** K3 Protocol (Internal Auditing).
+*   **Languages:** TypeScript 5, Python (AI Focus), JavaScript (ESNext).
+*   **Frameworks:** NestJS (Enterprise), React (Vite/SPA), FastAPI, Electron.
+*   **Automation & AI:** CrewAI, n8n (Workflow Orchestration), LM Studio.
+*   **Databases:** PostgreSQL, Qdrant (Vector DB), SQLite.
+*   **Infra & Security:** Docker, Vercel, Render, SafeIpc Architecture.
 
 ---
 

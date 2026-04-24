@@ -417,31 +417,42 @@ graph TD
                 <h2>Anatomía: ROBOT-ERP</h2>
                 <span onclick="closeModal('modal-erp')" style="cursor: pointer; font-size: 2rem;">&times;</span>
             </div>
-            <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+            <div class="case-study-grid">
                 <div>
-                    <h3>Inteligencia Operativa</h3>
-                    <p style="color: var(--text-dim);">Sistema de gestión integral donde una capa de agentes autónomos audita cada transacción para prevenir errores contables y quiebres de stock.</p>
-                    <h3 style="margin-top: 1.5rem;">Stack</h3>
+                    <h3>🏛️ Núcleo & Frontend (Electron v37)</h3>
+                    <p style="color: var(--text-dim);">Aplicación de escritorio de alto rendimiento construida con Electron y TypeScript, utilizando Vite para un empaquetado optimizado.</p>
                     <div class="anatomy-pills">
-                        <span>PostgreSQL</span><span>SQLite</span><span>Node.js</span><span>AI Agents</span>
+                        <span>Electron v37</span><span>React 18</span><span>Tailwind CSS</span><span>Framer Motion</span><span>TypeScript</span>
                     </div>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem; margin-top: 1rem; font-size: 0.9rem;">
+                        <li><strong>SafeIpc:</strong> Arquitectura de puente seguro para funciones críticas del OS.</li>
+                        <li><strong>UX/UI:</strong> Componentes accesibles vía Radix UI con animaciones fluidas.</li>
+                        <li><strong>Persistencia:</strong> Estrategia híbrida con SQLite local y PostgreSQL empresarial.</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3>Impacto Operativo</h3>
-                    <ul style="color: var(--text-dim); padding-left: 1.2rem;">
-                        <li>Auditoría automática de facturación.</li>
-                        <li>Predicción de stock con redes neuronales.</li>
-                        <li>Reducción de errores humanos al 0.01%.</li>
+                    <h3>🧠 Cerebro & Automatización (n8n)</h3>
+                    <p style="color: var(--text-dim);">Integración profunda con n8n orquestada vía Docker para flujos de trabajo asíncronos y monitoreo en tiempo real.</p>
+                    <div class="anatomy-pills">
+                        <span>n8n (Docker)</span><span>Baileys (WA)</span><span>Playwright</span><span>Firebase (FCM)</span>
+                    </div>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem; margin-top: 1rem; font-size: 0.9rem;">
+                        <li><strong>Scraping:</strong> Monitoreo de precios en tiempo real mediante Playwright.</li>
+                        <li><strong>WhatsApp:</strong> Bot integrado para gestión operativa directa.</li>
+                        <li><strong>Alerts:</strong> Notificaciones cross-platform a través de Firebase.</li>
                     </ul>
                 </div>
             </div>
             <div class="anatomy-box">
                 <div class="mermaid">
-graph LR
-    S["Ventas"] --> DB["PostgreSQL"]
-    DB --> A["AI Auditor Agent"]
-    A --> R["Reportes"]
-    A --> W["WhatsApp Alerts"]
+graph TD
+    E["Electron v37 (Vite)"] --> UI["React 18 / Radix UI"]
+    E --> IPC["SafeIpc Bridge"]
+    IPC --> DB["SQLite / PostgreSQL"]
+    E --> N8N["n8n Engine (Docker)"]
+    N8N --> WA["WhatsApp (Baileys)"]
+    N8N --> SC["Scraping (Playwright)"]
+    E --> FB["Firebase (FCM)"]
                 </div>
             </div>
         </div>

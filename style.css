@@ -643,6 +643,12 @@ section {
   color: var(--text-main);
 }
 
+.case-study-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
 /* Social Sidebar */
 .social-sidebar {
   position: fixed;

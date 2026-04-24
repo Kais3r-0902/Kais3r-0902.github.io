@@ -831,7 +831,27 @@ footer {
   }
 
   .social-sidebar {
-    display: none;
+    display: flex !important;
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    top: auto;
+    transform: translateX(-50%);
+    flex-direction: row;
+    gap: 1rem;
+    z-index: 5000;
+    width: auto;
+    padding: 0.5rem 1rem;
+    background: rgba(10, 11, 30, 0.8);
+    border-radius: 99px;
+    border: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+  }
+
+  .social-sidebar a {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
   }
 }
 

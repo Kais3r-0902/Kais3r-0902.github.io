@@ -462,25 +462,45 @@ graph TD
     <div id="modal-quantum" class="modal">
         <div class="modal-content">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
-                <h2>Anatomía: E-Commerce 4.0 (New Game)</h2>
+                <h2>Anatomía: E-Commerce 4.0 (QuantumShop)</h2>
                 <span onclick="closeModal('modal-quantum')" style="cursor: pointer; font-size: 2rem;">&times;</span>
             </div>
-            <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+            <div class="case-study-grid">
                 <div>
-                    <h3>⚙️ Ingeniería de Sistemas</h3>
-                    <p style="color: var(--text-dim);">Arquitectura de alta disponibilidad diseñada para soportar picos de tráfico masivo. La capa de IA es un servicio de valor agregado para la búsqueda semántica.</p>
-                    <h3 style="margin-top: 1.5rem;">Stack de Infraestructura</h3>
+                    <h3>🔙 Backend: Motor Inteligente (NestJS)</h3>
+                    <p style="color: var(--text-dim);">Arquitectura empresarial modular con NestJS y TypeScript 5. Integración nativa de IA para una experiencia de compra asistida.</p>
                     <div class="anatomy-pills">
-                        <span>React 19</span><span>Tailwind</span><span>Mercado Pago</span><span>Gemini AI</span>
+                        <span>NestJS</span><span>PostgreSQL</span><span>TypeORM</span><span>Google Gemini</span><span>JWT</span><span>Socket.io</span>
                     </div>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem; margin-top: 1rem; font-size: 0.9rem;">
+                        <li><strong>AI Engine:</strong> Chatbot contextual con Gemini IA que consulta stock en tiempo real.</li>
+                        <li><strong>Fintech:</strong> Procesamiento de pagos seguro con Mercado Pago SDK.</li>
+                        <li><strong>Automation:</strong> Scraper integrado con Cheerio para enriquecimiento de catálogo.</li>
+                    </ul>
                 </div>
                 <div>
-                    <h3>Features de Autoridad</h3>
-                    <ul style="color: var(--text-dim); padding-left: 1.2rem;">
-                        <li><strong>AI Assistant:</strong> Búsqueda semántica que entiende la intención del usuario.</li>
-                        <li><strong>Latency Monitor:</strong> Dashboard integrado que garantiza < 400ms de respuesta.</li>
-                        <li><strong>Stock Real-time:</strong> Sincronización instantánea de inventario para ofertas flash.</li>
+                    <h3>🎨 Frontend & Features 4.0 (React)</h3>
+                    <p style="color: var(--text-dim);">Interfaz inmersiva con estética Cyberpunk y lógica avanzada de compatibilidad de hardware.</p>
+                    <div class="anatomy-pills">
+                        <span>React 18</span><span>tsParticles</span><span>Recharts</span><span>CSS Modules</span><span>Docker</span>
+                    </div>
+                    <ul style="color: var(--text-dim); padding-left: 1.2rem; margin-top: 1rem; font-size: 0.9rem;">
+                        <li><strong>PC Builder:</strong> Algoritmo avanzado que valida compatibilidad técnica de hardware.</li>
+                        <li><strong>Analytics:</strong> Dashboard visual con Recharts para seguimiento de órdenes.</li>
+                        <li><strong>Data Cleaning:</strong> Normalizador Regex para clasificar inventarios masivos desde CSV.</li>
                     </ul>
+                </div>
+            </div>
+            <div class="anatomy-box">
+                <div class="mermaid">
+graph TD
+    U["Cliente (React 18)"] --> B["Backend (NestJS)"]
+    B --> DB["PostgreSQL (TypeORM)"]
+    B --> G["Google Gemini IA (Chat/Search)"]
+    B --> MP["Mercado Pago (Payments)"]
+    B --> PC["PC Builder Logic (Algorithm)"]
+    B --> S["Socket.io (Live Updates)"]
+    B --> D["Docker Infrastructure"]
                 </div>
             </div>
         </div>

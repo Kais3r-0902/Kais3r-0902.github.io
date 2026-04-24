@@ -21,7 +21,7 @@ body {
     color: var(--text);
     font-family: var(--font-main);
     line-height: 1.6;
-    padding: 40px;
+    padding: 2px;
 }
 
 .cv-container {
@@ -206,24 +206,33 @@ h2 {
         print-color-adjust: exact !important;
         background: var(--bg) !important;
     }
+
     .cv-container {
         border: 1px solid var(--border);
         background: var(--surface) !important;
         max-width: 100%;
         box-shadow: none;
     }
-    header, h2, .exp-header h3, .edu-header h4 {
+
+    header,
+    h2,
+    .exp-header h3,
+    .edu-header h4 {
         color: #fff !important;
     }
-    .exp-header .date, .title, .skill-list span {
+
+    .exp-header .date,
+    .title,
+    .skill-list span {
         color: var(--secondary) !important;
     }
-    .cv-container::before { 
+
+    .cv-container::before {
         display: block;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
     }
-    
+
     /* Evitar cortes de página en medio de secciones */
     section {
         page-break-inside: avoid;

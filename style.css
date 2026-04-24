@@ -119,8 +119,8 @@ nav {
   justify-content: center;
   min-height: 100vh;
   display: flex;
-  align-items: flex-end;
-  padding: 0 6rem;
+  align-items: center; /* Centrado vertical */
+  padding: 8rem 6rem 4rem; /* Padding superior para el nav */
   text-align: center;
 }
 
@@ -743,7 +743,7 @@ footer {
   }
 
   .hero {
-    padding: 0 2rem;
+    padding: 8rem 2rem 4rem;
   }
 
   .hero h1 {

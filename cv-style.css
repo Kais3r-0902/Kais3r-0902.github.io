@@ -202,20 +202,30 @@ h2 {
 
 @media print {
     body {
-        padding: 0;
-        background: #fff;
-        color: #000;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        background: var(--bg) !important;
     }
     .cv-container {
-        border: none;
+        border: 1px solid var(--border);
+        background: var(--surface) !important;
         max-width: 100%;
-        background: #fff;
+        box-shadow: none;
     }
     header, h2, .exp-header h3, .edu-header h4 {
-        color: #000 !important;
+        color: #fff !important;
     }
     .exp-header .date, .title, .skill-list span {
-        color: #333 !important;
+        color: var(--secondary) !important;
     }
-    .cv-container::before { display: none; }
+    .cv-container::before { 
+        display: block;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    /* Evitar cortes de página en medio de secciones */
+    section {
+        page-break-inside: avoid;
+    }
 }

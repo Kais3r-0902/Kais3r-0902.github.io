@@ -643,24 +643,6 @@ section {
   color: var(--text-main);
 }
 
-@media (max-width: 1024px) {
-
-
-  nav,
-  section,
-  .hero {
-    padding: 2rem;
-  }
-
-  .hero h1 {
-    font-size: 3.5rem;
-  }
-
-  .bento-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Social Sidebar */
 .social-sidebar {
   position: fixed;
@@ -746,17 +728,118 @@ footer {
   font-family: var(--font-mono);
 }
 
-@media (max-width: 768px) {
-  .social-sidebar {
-    display: none;
+/* ==========================================================================
+   RESPONSIVE DESIGN (INFRASTRUCTURE OVERHAUL)
+   ========================================================================== */
+@media (max-width: 1024px) {
+  nav {
+    padding: 1rem 2rem;
   }
 
-  footer {
-    padding: 4rem 2rem 2rem;
+  .hero {
+    padding: 0 2rem;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal {
+    padding: 2rem;
   }
 }
 
-/* Mermaid Fix */
+/* Mobile Standard (up to 768px) */
+@media (max-width: 768px) {
+  * { cursor: auto !important; }
+  #cursor, #cursor-blur { display: none !important; }
+
+  nav {
+    padding: 1rem;
+  }
+
+  .nav-links {
+    display: none; /* Simplificamos para móvil para evitar overlap */
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+    letter-spacing: -1px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .agent-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem;
+  }
+
+  .bento-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .bento-item.large, .bento-item.wide {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr !important;
+    padding: 1rem;
+  }
+
+  .monitor-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .modal-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .case-study-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+
+  footer {
+    padding: 4rem 1.5rem 2rem;
+  }
+
+  .social-sidebar {
+    display: none;
+  }
+}
+
+/* Small Phones (up to 480px) */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-badge {
+    font-size: 0.6rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .bento-item {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .monitor-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Mermaid Fix & Improvements */
 .anatomy-box {
   background: rgba(0, 0, 0, 0.2);
   border-radius: 12px;
@@ -764,6 +847,15 @@ footer {
   margin-top: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.05);
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
-.mermaid { background: transparent !important; }
-.mermaid svg { max-width: 100%; height: auto; }
+
+.mermaid { 
+  background: transparent !important; 
+  min-width: 300px;
+}
+
+.mermaid svg { 
+  max-width: 100%; 
+  height: auto; 
+}

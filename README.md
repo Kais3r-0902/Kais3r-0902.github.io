@@ -64,6 +64,7 @@ El desarrollo es gobernado por un ecosistema de 5 agentes internos que garantiza
 *   **Frameworks:** NestJS (Enterprise), React (Vite/SPA), FastAPI, Electron.
 *   **Automation & AI:** CrewAI, n8n (Workflow Orchestration), LM Studio.
 *   **Databases:** PostgreSQL, Qdrant (Vector DB), SQLite.
+*   **Versioning & CI/CD:** Semantic Versioning (SemVer), GitFlow, GitHub Actions.
 *   **Infra & Security:** Docker, Vercel, Render, SafeIpc Architecture.
 
 ---

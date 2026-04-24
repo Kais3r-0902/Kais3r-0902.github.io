@@ -330,7 +330,7 @@ nav {
 
 section {
   overflow: hidden;
-  padding: 3rem 3rem;
+  padding: 3rem 6rem;
 }
 
 /* Terminal Style */
@@ -775,13 +775,15 @@ footer {
   }
 
   nav {
-    padding: 1rem 1.5rem !important; /* Reducción de padding para evitar desborde */
+    padding: 1rem 1.5rem !important;
+    /* Reducción de padding para evitar desborde */
     width: 100% !important;
     left: 0 !important;
   }
 
   section {
-    padding: 4rem 1.5rem !important; /* Padding consistente que no empuja la pantalla */
+    padding: 4rem 1.5rem !important;
+    /* Padding consistente que no empuja la pantalla */
   }
 
   .nav-links {
@@ -848,7 +850,8 @@ footer {
     left: 1.5rem;
     top: auto;
     transform: none;
-    flex-direction: column; /* Volvemos a vertical pero flotante */
+    flex-direction: column;
+    /* Volvemos a vertical pero flotante */
     gap: 0.8rem;
     z-index: 5000;
     width: auto;

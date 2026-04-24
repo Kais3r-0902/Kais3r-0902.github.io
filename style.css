@@ -328,6 +328,7 @@ nav {
 }
 
 section {
+  overflow: hidden;
   padding: 3rem 3rem;
 }
 
@@ -464,8 +465,8 @@ section {
 /* Audit Widget */
 .audit-floating {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 4rem;
+  right: 1rem;
   background: var(--surface);
   border: 1px solid var(--border);
   padding: 1rem 1.5rem;

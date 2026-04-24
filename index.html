@@ -288,7 +288,82 @@
                     <b>Filosofía de Arquitectura Modular:</b> Todos los sistemas están diseñados para escalar. Los precios base cubren la infraestructura core esencial. Módulos específicos (Facturación AFIP, Logística, Multi-sucursal) se integran de forma independiente según el crecimiento de su negocio.
                 </p>
             </div>
+
+            <!-- Tech Stack Bar -->
+            <div class="tech-stack-bar" data-aos="fade-up">
+                <div class="tech-badge"><i class="fab fa-node-js"></i> Node.js</div>
+                <div class="tech-badge"><i class="fab fa-python"></i> Python</div>
+                <div class="tech-badge"><i class="fas fa-database"></i> Supabase</div>
+                <div class="tech-badge"><i class="fab fa-docker"></i> Docker</div>
+                <div class="tech-badge"><i class="fas fa-robot"></i> Agents IA</div>
+                <div class="tech-badge"><i class="fab fa-react"></i> React/Vite</div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-container">
+                <h3 style="text-align: center; margin-bottom: 2rem;" data-aos="fade-up">Preguntas Frecuentes</h3>
+                
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        ¿Por qué hay un costo de mantenimiento mensual?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        El mantenimiento asegura que su sistema opere siempre en la última versión de seguridad, incluye el hosting de alta disponibilidad, certificados SSL, backups diarios automáticos y el monitoreo constante de las APIs integradas (pagos, logística, IA).
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="50">
+                    <div class="faq-question">
+                        ¿Puedo escalar mi sistema de un plan a otro?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Absolutamente. Al ser una arquitectura modular, podemos transformar una Presencia Digital en un E-Commerce o un ERP sin necesidad de desechar el trabajo anterior, preservando su inversión inicial.
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        ¿Cómo se maneja la seguridad de mis datos?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Implemento estándares de cifrado de grado bancario y bases de datos aisladas. Además, la auditoría K3 integrada en los planes superiores permite rastrear cada acción realizada en el sistema para máxima transparencia.
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                    <div class="faq-question">
+                        ¿Qué pasa si necesito una funcionalidad muy específica?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Para eso existe el plan "IA & Custom". Diseñamos módulos a medida que se acoplan a la arquitectura base, permitiendo resolver necesidades únicas de su modelo de negocio.
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <script>
+            // FAQ Toggle Logic
+            document.querySelectorAll('.faq-question').forEach(question => {
+                question.addEventListener('click', () => {
+                    const item = question.parentElement;
+                    const isActive = item.classList.contains('active');
+                    
+                    // Close all
+                    document.querySelectorAll('.faq-item').forEach(otherItem => {
+                        otherItem.classList.remove('active');
+                    });
+
+                    // Toggle current
+                    if (!isActive) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+        </script>
 
         <!-- Technical Manifesto (Terminal) -->
         <section id="manifesto">

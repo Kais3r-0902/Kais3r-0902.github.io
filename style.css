@@ -774,12 +774,22 @@ footer {
   }
 
   nav {
-    padding: 1rem;
+    padding: 1rem 1.5rem !important; /* Reducción de padding para evitar desborde */
+    width: 100% !important;
+    left: 0 !important;
+  }
+
+  section {
+    padding: 4rem 1.5rem !important; /* Padding consistente que no empuja la pantalla */
   }
 
   .nav-links {
     display: none;
     /* Simplificamos para móvil para evitar overlap */
+  }
+
+  .hero {
+    padding: 8rem 1.5rem 4rem !important;
   }
 
   .hero h1 {
@@ -853,13 +863,6 @@ footer {
     height: 35px;
     font-size: 0.9rem;
   }
-}
-
-/* Global Overflow Fix */
-html, body {
-  overflow-x: hidden;
-  width: 100%;
-  position: relative;
 }
 
 /* Small Phones (up to 480px) */
